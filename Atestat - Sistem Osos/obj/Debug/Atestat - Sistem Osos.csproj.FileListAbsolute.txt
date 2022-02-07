@@ -1,0 +1,17 @@
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\bin\Debug\Atestat - Sistem Osos.exe.config
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\bin\Debug\Atestat - Sistem Osos.exe
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\bin\Debug\Atestat - Sistem Osos.pdb
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.csproj.AssemblyReference.cache
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat___Sistem_Osos.Properties.Resources.resources
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.csproj.GenerateResource.cache
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.csproj.CoreCompileInputs.cache
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.exe
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.pdb
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat___Sistem_Osos.Main.resources
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat___Sistem_Osos.Lessons.resources
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Interop.AcroPDFLib.dll
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\AxInterop.AcroPDFLib.dll
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat - Sistem Osos.csproj.ResolveComReference.cache
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\bin\Debug\Interop.AcroPDFLib.dll
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\Projects\Atestat - Sistem Osos\Atestat - Sistem Osos\obj\Debug\Atestat___Sistem_Osos.Grading.resources
