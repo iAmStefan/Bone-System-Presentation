@@ -215,6 +215,7 @@ namespace Atestat___Sistem_Osos
                 else if (600 - time_seconds < 60) Time.Text = "Ai rezolvat testul în " + ((600 - time_seconds) % 60).ToString() + " de secunde.";
                 else if (600 - time_seconds == 60) Time.Text = "Ai rezolvat testul într-un minut";
                 else if (600 - time_seconds > 60 && 600 - time_seconds < 120) Time.Text = "Ai rezolvat testul într-un minut si " + ((600 - time_seconds) % 60).ToString() + " secunde.";
+                else if (600 - time_seconds >= 120) Time.Text = "Ai rezolvat testul in " + ((600 - time_seconds) / 60) +  " minute si " + ((600 - time_seconds) % 60).ToString() + " secunde.";
                 Score.Font = new Font("Tahoma", 16);
                 Time.Font = new Font("Tahoma", 16);
                 this.Controls.Remove(ChoiceA);
@@ -243,15 +244,15 @@ namespace Atestat___Sistem_Osos
                     {
                         if ((choices[i].ForeColor == Color.FromArgb(236, 179, 101) || choices[i].ForeColor == Color.White) && !choices[i].Text.Contains(rightAnswers[j]))
                         {
-                            choices[i].ForeColor = Color.IndianRed;
+                            choices[i].ForeColor = Color.Red;
                             for (int k = 0; k < choices.Length; k++)
                             {
-                                if (choices[k].ForeColor == Color.White && choices[k].Text.Contains(rightAnswers[j])) choices[k].ForeColor = Color.LightGreen;
+                                if (choices[k].ForeColor == Color.White && choices[k].Text.Contains(rightAnswers[j])) choices[k].ForeColor = Color.DarkGreen;
                             }
                         }
                         if (choices[i].ForeColor == Color.FromArgb(236, 179, 101) && choices[i].Text.Contains(rightAnswers[j]))
                         {
-                            choices[i].ForeColor = Color.LightGreen;
+                            choices[i].ForeColor = Color.DarkGreen;
                             points += 1;
                             Score.Text = "Număr de puncte: " + points.ToString();
                         }
@@ -359,13 +360,13 @@ namespace Atestat___Sistem_Osos
             Time.Text = "Timp: " + (time_seconds / 60).ToString() + " minute și " + (time_seconds % 60).ToString() + " secunde";
             if (time_seconds % 60 == 0) Time.Text = "Timp: " + (time_seconds / 60).ToString() + " minute";
             else if (time_seconds > 60 && time_seconds <= 120) Time.ForeColor = Color.Orange;
-            else if (time_seconds > 30 && time_seconds <= 60) Time.ForeColor = Color.IndianRed;
-            else if (time_seconds <= 30) Time.ForeColor = Color.Red;
+            else if (time_seconds > 30 && time_seconds <= 60) Time.ForeColor = Color.Red;
+            else if (time_seconds <= 30) Time.ForeColor = Color.DarkRed;
             if (time_seconds == 0)
             {
                 ceas.Enabled = false;
-                if (points > 1) Score.Text = "Ai obtinut " + points.ToString() + " punct raspunzand corect la " + (points - 1).ToString() + " intrebari.";
-                else if (points == 1) Score.Text = "Ai obtinut " + points.ToString() + " punct din oficiu.";
+                if (points > 1) Score.Text = "Ai obținut " + points.ToString() + " puncte răspunzând corect la " + (points - 1).ToString() + " întrebări.";
+                else if (points == 1) Score.Text = "Ai obținut " + points.ToString() + " punct din oficiu.";
                 Score.Font = new Font("Tahoma", 16);
                 Time.Text = "Timpul a expirat!";
                 Time.ForeColor = Color.White;

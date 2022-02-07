@@ -35,7 +35,7 @@ namespace Atestat___Sistem_Osos
             // 
             // ceas
             // 
-            this.ceas.Interval = 1000;
+            this.ceas.Interval = 80;
             this.ceas.Tick += new System.EventHandler(this.ceas_Tick);
             // 
             // Grading
